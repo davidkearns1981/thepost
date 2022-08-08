@@ -165,7 +165,8 @@ group :development, :test do
 end
 
 
-gem 'mini_racer', platforms: :ruby
+# gem 'mini_racer', platforms: :ruby
+gem 'mini_racer', '< 0.5.0', platforms: :ruby
 gem 'js-routes', '~> 1.3.3'
 
 # Color utilities needed for landing page
