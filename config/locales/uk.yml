@@ -3,7 +3,7 @@ uk:
     currency:
       format:
         separator: "."
-        delimiter: "."
+        delimiter: " "
         format: "%u%n"
   admin:
     categories:
@@ -2808,7 +2808,7 @@ uk:
       no_image: "Немає зображення"
       manage_listings: "Керувати всіма моїми оголошеннями"
     show:
-      contact: "Зконтактуватись з %{person}"
+      contact: "Зв'язатись %{person}"
       about_me: "Про мене:"
       add_description: "Розкажіть трохи про себе"
       add_location: "Додати місцезнаходження"
@@ -3070,7 +3070,7 @@ uk:
       december: Гру
     today: Сьогодні
     clear: Очистити
-    format: м/д/рік
+    format: mm/dd/yyyy
   time:
     formats:
       short: "%b %e, %Y at %H:%M"
