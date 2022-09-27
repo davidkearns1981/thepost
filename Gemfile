@@ -164,9 +164,10 @@ group :development, :test do
   gem 'pry-byebug'
 end
 
+gem 'libv8-node', '~> 16.10'
 
 # gem 'mini_racer', platforms: :ruby
-gem 'mini_racer', '< 0.5.0', platforms: :ruby
+gem 'mini_racer', '< 0.6.2', platforms: :ruby
 gem 'js-routes', '~> 1.3.3'
 
 # Color utilities needed for landing page
